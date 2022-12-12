@@ -1,0 +1,42 @@
+/* body {
+    font-family: 'Courier New', Courier, monospace;
+} */
+.jumbotron h1 {
+    text-align: center;
+    color: #49A5FF;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+.jumbotron span {
+    color: #49A5FF;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+
+.footer {
+    background-color: #424242;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: 40px;
+}
+
+.footer p {
+    text-align: center;
+    color: whitesmoke;
+    
+    
+}
+
+
+
+
+
+

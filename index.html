@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PORTOFOLIO MATEMATIKA</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- my css -->
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" type="image/x-icon" href="assets/img/logo.png"/>
+</head>
+
+<body class="bg-primary">
+  <div class="jumbotron">
+    <div class="container">
+      <img src="" alt="" />
+
+      <div class="card card-lg" data-aos="zoom-in">
+        <div class="card-body" style="
+              box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+                rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+                rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+            ">
+          <div class="row">
+            <div class="col-md-3" data-aos="flip-left">
+              <img src="assets/img/logo.png" alt="Logo" style="width:100px;height:100px;" />
+            </div>
+            <div class="col-md-6">
+              <h1>PORTOFOLIO MATEMATIKA</h1>
+              <h1 class="mb-5">Permutasi</h1>
+            </div>
+          </div>
+          <h4>Pengertian Permutasi</h4>
+          <p class="card-text mb-4">
+            Permutasi adalah pengaturan sebagian atau seluruh himpunan dalam urutan tertentu (urutan elemen
+            diperhatikan).
+          </p>
+
+          <div class="row mb-4">
+            <div class="col-md-6">
+              <h4>Rumus Permutasi</h4>
+              <img src="assets/img/rumus-permutasi.webp" alt="rumus" style="width: 200px;"/>
+            </div>
+            <div class="col-md-6" style="color: red">
+              <p>n = Banyaknya data</p>
+              <p>r = Data yang dibutuhkan</p>
+            </div>
+          </div>
+
+
+<h4 class="text text-center mt-4">Hitung Permutasi Otomatis</h4>
+<div class="d-flex w-100 justify-content-center">
+<center>
+  <div class="container">
+    <h6>Masukan nilai n & r</h6>
+    <div class="hitung">
+      <input type="text" placeholder="n" id="n" name="n" value="" />
+      <input type="text" id="r" placeholder="r" name="" value="" />
+      <button type="button" name="button" onclick="hitung_permutasi()" class="btn btn-primary">
+        Hitung
+      </button>
+    </div>
+
+    <div class="row">
+      <div class="col-md-1">
+        <h5>
+          <sub id="valueN" style="color: red"></sub>P<sub id="valueR" style="color: red"></sub>
+          =
+        </h5>
+      </div>
+      <div class="col-md-2">
+        <h5>
+          <sup id="fN" style="color: red"></sup>/<sub id="fR" style="color: red"></sub>
+          =
+        </h5>
+      </div>
+      <div class="col-md-9">
+        <h5 id="hasil" class="text-success" style="font-weight: bold"></h5>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</center>
+         
+
+  <div class="footer">
+    <div class="container">
+      <p>
+        Copyright &copy; Ridho Arahman | Bagus Pradita | Adhi Nugraha |
+        Pradifta Alang | Cannava Dewa
+      </p>
+      <p></p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
